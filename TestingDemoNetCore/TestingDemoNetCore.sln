@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingDemoNetCore", "TestingDemoNetCore\TestingDemoNetCore.csproj", "{718CA4F1-4AB5-4E4D-9676-DBFBDE53EB85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingDemoNetCore", "TestingDemoNetCore\TestingDemoNetCore.csproj", "{718CA4F1-4AB5-4E4D-9676-DBFBDE53EB85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{6DBE913D-2BA1-4DB9-A4B6-E37CFF939677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{6DBE913D-2BA1-4DB9-A4B6-E37CFF939677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestDemo", "XUnitTestDemo\XUnitTestDemo.csproj", "{5A309504-0B2B-45CC-B95A-1656C0D4E0D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestDemo", "XUnitTestDemo\XUnitTestDemo.csproj", "{5A309504-0B2B-45CC-B95A-1656C0D4E0D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestDemo", "NUnitTestDemo\NUnitTestDemo.csproj", "{22373585-648D-46EF-8831-E7CD3B1A6544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestDemo", "NUnitTestDemo\NUnitTestDemo.csproj", "{22373585-648D-46EF-8831-E7CD3B1A6544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitMsTestDemo", "UnitMsTestDemo\UnitMsTestDemo.csproj", "{1E01A3CE-50A7-48C7-BDAD-C22B30187759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitMsTestDemo", "UnitMsTestDemo\UnitMsTestDemo.csproj", "{1E01A3CE-50A7-48C7-BDAD-C22B30187759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTestingDemo", "DataTestingDemo\DataTestingDemo.csproj", "{65826A54-262D-43B1-93CF-01EF561C1478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestDemoApi.Tests", "NUnitTestDemoApi.Tests\NUnitTestDemoApi.Tests.csproj", "{F5347A36-0EE6-4E75-835C-5F5C4A984FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{1E01A3CE-50A7-48C7-BDAD-C22B30187759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E01A3CE-50A7-48C7-BDAD-C22B30187759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E01A3CE-50A7-48C7-BDAD-C22B30187759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65826A54-262D-43B1-93CF-01EF561C1478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65826A54-262D-43B1-93CF-01EF561C1478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65826A54-262D-43B1-93CF-01EF561C1478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65826A54-262D-43B1-93CF-01EF561C1478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5347A36-0EE6-4E75-835C-5F5C4A984FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5347A36-0EE6-4E75-835C-5F5C4A984FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5347A36-0EE6-4E75-835C-5F5C4A984FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5347A36-0EE6-4E75-835C-5F5C4A984FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

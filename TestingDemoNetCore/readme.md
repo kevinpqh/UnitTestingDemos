@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=database.com;Initial Catalog=TestingDB;User ID=edrfdser ;Password=*******" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Moldels -force
