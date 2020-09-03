@@ -22,7 +22,7 @@ namespace DataTestingDemo.Moldels
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Data Source=desarrollo.sreasons.com;Initial Catalog=TestingDB;User ID=usuariotexao;Password=12345");
+                optionsBuilder.UseSqlServer("");
             }
         }
 
